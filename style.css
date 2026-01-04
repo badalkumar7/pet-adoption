@@ -1,0 +1,41 @@
+#outer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+@media(max-width:375px){
+   #outer{flex-wrap: wrap;}
+}
+.blue{
+    color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.cards{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+span{
+  color: #d56f3e;
+}
+h4{
+    color: #d56f3e;
+    font-style: italic;
+    font-size: 1rem;
+}
+#footer{
+    color: #4a4340;
+    font-style: italic;
+    font-size: 1rem;
+    text-align: right;
+
+}
